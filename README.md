@@ -16,20 +16,6 @@ Message Persistence - All messages stored in MongoDB
 
 Clean UI - Modern, responsive design
 
-📁 Project Structure
-text
-ChatApp/
-├── mobile/                 # React Native Expo App
-│   ├── app/               # File-based routing
-│   ├── context/           # React Context (Auth, Socket)
-│   ├── services/          # API services
-│   ├── types/             # TypeScript definitions
-│   └── assets/            # Images and icons
-└── server/                # Node.js Backend
-    ├── models/            # MongoDB models
-    ├── routes/            # Express routes
-    ├── middleware/        # Auth middleware
-    └── index.js           # Server entry point
 🛠️ Setup Instructions
 Prerequisites
 Node.js 16+ installed
