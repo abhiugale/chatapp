@@ -12,7 +12,7 @@ const conversationSchema = new mongoose.Schema({
   timestamps: true
 });
 
-// Ensure unique conversations between two users
-conversationSchema.index({ participants: 1 }, { unique: true });
+// Remove unique index to prevent duplicate key errors
+// conversationSchema.index({ participants: 1 }, { unique: true });
 
 module.exports = mongoose.model('Conversation', conversationSchema);
